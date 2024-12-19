@@ -1,0 +1,13 @@
+This folder contains the analysis scripts for the 1st and 2nd level analyses of the fMRI data. Below is a description of each of the scripts.
+
+run_order_edit.py accounts for the randomization by puts the runs in a consistently labeled order according to the design.
+
+fsf_creator.py creates the run-level .fsf files that FSL uses to model the time series data for five runs of the main interpersonal perception task.
+
+fsf_loc_creator.py creates the run-level .fsf files that FSL uses to model the single run of the localizer task.
+
+fsf_higher_creator.py creates the 2nd-level .fsf files that FSL uses to model within-subject effects across runs.
+
+deface_script.sh is a script to remove the face of the sturctural scan for sharing on OpenNeuro.
+
+The fsfs subdirectory contains the output files from the fsf_creator scripts.
